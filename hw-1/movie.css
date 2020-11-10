@@ -1,1 +1,34 @@
+body {
+	margin : 0;
+	padding:0;
+	background-color: #EEEEEE;
+}
+h1{
+font-size: 24pt;
+font-family: Georgis;
+text-shadow: 3px 3px 3px #999999;
+text-align: center;
+}
+.head{
+	background-image: url('images/rgb.png');
 
+}
+.left{
+	float:left;
+	width: 70%;
+	background-image: url("images/background.png");
+}
+.right{
+	float:left;
+	width: 30%;
+}
+.centar{
+	background-color: #A2B964;
+	margin: auto;
+	width: 55%;
+	padding: 0;
+}
+.slika{
+	float:left;
+	width: 100%;
+}
