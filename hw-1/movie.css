@@ -10,7 +10,7 @@ text-shadow: 3px 3px 3px #999999;
 text-align: center;
 }
 .head{
-	background-image: url('images/rgb.png');
+	background-image: url('images/rbg.png');
 
 }
 .left{
@@ -21,6 +21,7 @@ text-align: center;
 .right{
 	float:left;
 	width: 30%;
+
 }
 .centar{
 	background-color: #A2B964;
@@ -31,4 +32,16 @@ text-align: center;
 .slika{
 	float:left;
 	width: 100%;
+}
+.procenat{
+	color:red;
+	font-size: 48pt;
+	font-family: Arial;
+	font-style: bold;
+	vertical-align: text-bottom;
+}
+.clear::after, .clear2::after{
+	content: "";
+	clear: both;
+	display: table;
 }
