@@ -28,6 +28,7 @@ text-align: center;
 	margin: auto;
 	width: 55%;
 	padding: 0;
+	box-shadow: 5px 5px 5px grey;
 }
 .slika{
 	float:left;
@@ -71,4 +72,14 @@ ul{
 }
 #w3c{
 	text-align: right;
+}
+.quotebubble{
+	font-size: 13pt;
+	font-family: Georgia;
+	margin-left: 5%;
+	margin-right:5%;
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	border-radius: 12px;
+	padding: 1em;
 }
