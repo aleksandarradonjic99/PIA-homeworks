@@ -45,3 +45,30 @@ text-align: center;
 	clear: both;
 	display: table;
 }
+.desnitekst{
+	padding-left: 15px;
+	padding-right: 10px;
+	font-size: 12pt;
+	font-family: Arial;
+
+}
+
+dt{
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
+.footer{
+	text-align: center;
+	padding: 0.5em;
+	font-weight: bold;
+}
+#w3c{
+	text-align: right;
+}
