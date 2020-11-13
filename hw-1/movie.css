@@ -9,22 +9,22 @@ font-family: Georgis;
 text-shadow: 3px 3px 3px #999999;
 text-align: center;
 }
-.head{
+.zeleniheader{
 	background-image: url('images/rbg.png');
 	height: 83px;
 
 }
-.left{
+.levakolona{
 	float:left;
 	width: 70%;
 	background-color: #EEEEEE;
 }
-.right{
+.desnakolona{
 	float:left;
 	width: 30%;
 
 }
-.centar{
+.centarstranice{
 	background-color: #A2B964;
 	margin: auto;
 	width: 55%;
