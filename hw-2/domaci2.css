@@ -5,6 +5,7 @@ a{
 a:link{
 
 	text-decoration: none;
+
 }
 h1{
 	margin-top: 50px;
@@ -16,6 +17,7 @@ h1{
 h3{
 	text-align: center;
 	margin-top: 40px;
+	font-family: Cursive;
 }
 
 img{
@@ -26,10 +28,12 @@ img{
 }
 p{
 	font-size:20pt;
+	font-family: Cursive;
 
 }
 
 h4{
 	text-align: center;
 	margin-top: 20px;
+	font-family: Cursive;
 }
