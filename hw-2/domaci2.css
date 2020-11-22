@@ -40,3 +40,15 @@ h4{
 	font-family: Cursive;
 	font-size: 18pt;
 }
+.dropdown-toggle{
+	margin-top: 15px;
+	text-align: center;
+	padding-right: 50px; 
+}
+
+.btn-default{
+	float: left;
+	padding-right: 50px;
+	margin-left: 173px;
+	margin-top: 20px;
+}
