@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("pocetnaslika.jpg");
+}
+.kvizpravila{
+    width: 600px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    
+
+}

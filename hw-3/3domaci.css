@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("pocetnaslika.jpg");
+}
+
+.forma{
+
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 50px;
+    
+
+
+}
+
+#dugme1{
+    
+    background-color:sandybrown;
+    color:black;
+    font-size: 21pt;
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px 100px;
+
+
+}
+label{
+    border: 2px solid blue;
+    font-size: 15pt;
+    margin-bottom: 15px;
+
+
+
+}
+
+#input{
+    width:300px;
+    height: 40px;
+
+}
