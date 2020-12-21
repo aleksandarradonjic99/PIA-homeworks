@@ -7,6 +7,21 @@ body{
     width: 600px;
     margin-top: 150px;
     margin-bottom: 100px;
+    text-align: center;
+    padding: 10px;
     
+
+    
+}
+p{
+    font-size: 12pt;
+    color: crimson;
+
+}
+#start{
+    margin-top: 20px;
+    background-color: darkblue;
+    color: darkgray;
+    font-size: 14pt;
 
 }
