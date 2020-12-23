@@ -2,43 +2,43 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="widht=device-widht, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="kviz.css">
 
 
     </head>
 
-    <body>
+    <body onload="ucitaj()"> 
         <div class="container kviz">
             
         <div class="row pitanje">
-            <p>Pitanje</p>
+            <p id="pitanje">Pitanje</p>
 
         </div>
 
         <div class="row odgovori">
 
             <div class="col-md-6">
-                <button>Prvi odgovor</button>
+                <button id="odgovor1">Prvi odgovor</button>
             </div>
 
             <div class="col-md-6">  
-                <button>Treci odgovor</button>
+                <button id="odgovor2">Treci odgovor</button>
             </div>
 
            <div class="col-md-6">
-               <button>Drugi odgovor</button>
+               <button id="odgovor3">Drugi odgovor</button>
            </div>
 
            <div class="col-md-6">
-               <button>Cetvrti odgovor</button>  
+               <button id="odgovor4">Cetvrti odgovor</button>  
            </div> 
 
         </div>
 
 
-        
+        <script src="kviz.js"></script>
 
 
     </body>
