@@ -16,6 +16,8 @@ var brojac=0;
 
 var interval =setInterval(prikazi,1000);
 
+var rezultat = 0;
+
 var pitanje = document.getElementById ("pitanje");
 var odgovor1 = document.getElementById ("odgovor1");
 var odgovor2 = document.getElementById ("odgovor2");
@@ -50,6 +52,8 @@ function prikazi(){
         odgovor3.style.pointerEvents = "all";
         odgovor4.style.pointerEvents = "all";
 
+        console.log(rezultat);
+
     }
 
 }
@@ -70,6 +74,8 @@ var tacanOdgvor;
         if(odgovor1.innerHTML == tacanOdgvor){
 
             odgovor1.style.backgroundColor= "green";
+
+            rezultat++;
         
             odgovor1.style.pointerEvents = "none";
             odgovor2.style.pointerEvents = "none";
@@ -96,6 +102,8 @@ var tacanOdgvor;
 
             odgovor2.style.backgroundColor= "green";
 
+            rezultat++;
+
             odgovor1.style.pointerEvents = "none";
             odgovor2.style.pointerEvents = "none";
             odgovor3.style.pointerEvents = "none";
@@ -120,6 +128,8 @@ var tacanOdgvor;
 
             odgovor3.style.backgroundColor= "green";
 
+            rezultat++;
+
             odgovor1.style.pointerEvents = "none";
             odgovor2.style.pointerEvents = "none";
             odgovor3.style.pointerEvents = "none";
@@ -143,6 +153,8 @@ var tacanOdgvor;
         if(odgovor4.innerHTML == tacanOdgvor){
 
             odgovor4.style.backgroundColor= "green";
+
+            rezultat++;
 
             odgovor1.style.pointerEvents = "none";
             odgovor2.style.pointerEvents = "none";

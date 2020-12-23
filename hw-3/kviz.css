@@ -60,6 +60,17 @@ button{
     margin-right: 70px;
 }
 
+.tajmer #vreme{
+
+    font-size: 20pt;
+    font-weight: bold;
+    color:darkred;
+    float: left;
+    margin-left: 20px;
+    background-color: wheat;
+
+}
+
 
 
 
