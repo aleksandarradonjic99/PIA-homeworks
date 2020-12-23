@@ -33,7 +33,34 @@ button{
 
         background-color: cornflowerblue;
         color: white;
-        
+        font-size: 15pt;
+        width: 260px;
+
+}
+
+.odustani button{
+
+    background-color: cornflowerblue;
+        color: white;
+        font-size: 15pt;
+        width: 130px;
+
+}
+.odustani #odustani{
+
+    float: left;
+    margin-left: 70px;
 
 
 }
+
+.odustani #preskoci{
+
+    float: right;
+    margin-right: 70px;
+}
+
+
+
+
+
