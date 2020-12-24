@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("pocetnaslika.jpg");
+}
+
+.konacno{
+    width: 500px;
+    text-align: center;
+    background-color: 3px solid gray;
+
+}
+
+.konacno p{
+
+    display: block;
+    font-size: 20pt;
+    font-weight: bold;
+    color: indigo;
+    
+    
+}

@@ -56,11 +56,21 @@ function prikazi(){
 
     }
 
+    else{
+        window.location.href = "konacno.html";
+
+    }
+
 }
 
 var preskociDugme = document.getElementById("preskoci");
 preskociDugme.onclick=()=> {
     prikazi();
+}
+
+var odustaniDugme = document.getElementById("odustani");
+odustaniDugme.onclick = () => {
+    window.location.href = "konacno.html";
 }
 
 
