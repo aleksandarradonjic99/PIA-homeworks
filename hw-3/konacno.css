@@ -14,9 +14,11 @@ body{
 .konacno p{
 
     display: block;
+    margin-top: 300px;
     font-size: 20pt;
     font-weight: bold;
-    color: indigo;
-    
+    color:white;
+    font-family:monospace;
+
     
 }

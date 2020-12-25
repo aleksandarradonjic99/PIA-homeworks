@@ -4,20 +4,27 @@ body{
     background-image: url("pocetnaslika.jpg");
 }
 .kvizpravila{
-    width: 600px;
-    margin-top: 200px;
+    width: 800px;
+    margin-top: 300px;
     margin-bottom: 100px;
     text-align: center;
     padding: 10px;
+    
     
 
     
 }
 p{
     font-size: 14pt;
-    color: black;
+    color:darkcyan;
     font-family:monospace;
-    font-style: bold;
+    border-style: solid;
+    border-color: darkcyan;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    
+    
     
 
 }
@@ -26,7 +33,9 @@ p{
     color:darkcyan;
     font-size: 18pt;
     font-family:monospace;
-    margin: 20px 100px;
+    margin: 60px 200px;
     width: 150px;
+    border-color: darkcyan;
+    border-radius: 20px;
 
 }
