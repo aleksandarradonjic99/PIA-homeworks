@@ -17,8 +17,14 @@ body{
     margin-top: 300px;
     font-size: 20pt;
     font-weight: bold;
-    color:white;
+    color:red;
     font-family:monospace;
+    border-style: solid;
+    border-color:red;
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 300px;
+    padding: 5px;
 
     
 }

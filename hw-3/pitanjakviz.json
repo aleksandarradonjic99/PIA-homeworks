@@ -36,7 +36,7 @@
     },
 
     {
-        "Pitanje":"Koji klub je primio najviše golova do sada?",
+        "Pitanje":"Koji klub je primio najviše golova u dosadašnjem toku prvenstva?",
         "A": "Arsenal",
         "B": "West Brom",
         "C": "Leeds",
@@ -81,7 +81,7 @@
     },
 
     {
-        "Pitanje":"Koji golman je doneo najviše poena do sada?",
+        "Pitanje":"Koji golman je doneo najviše Fantasy poena do sada?",
         "A": "de Gea",
         "B": "Martinez E.",
         "C": "Alisson",

@@ -56,7 +56,10 @@ function prikazi(){
     }
 
     else{
+        
         window.location.href = "konacno.html";
+
+        document.getElementById("rez").innerHTML = rezultat;
 
     }
 
@@ -65,7 +68,7 @@ function prikazi(){
 var preskociDugme = document.getElementById("preskoci");
 preskociDugme.onclick=()=> {
     flag = true;
-    prikazi();
+    setTimeout(prikazi,500);
 }
 
 var odustaniDugme = document.getElementById("odustani");
@@ -206,6 +209,7 @@ var flag = false;
             }
             if(tajmer <= 0){
                 clearInterval(int);
+                prikazi();
             }
             document.getElementById ("vreme").innerHTML = "Tajmer: "+ tajmer;
             tajmer--;
