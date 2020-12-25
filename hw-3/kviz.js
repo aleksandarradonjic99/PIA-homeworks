@@ -14,7 +14,7 @@ var brojPitanja = 0;
 
 var brojac=0;
 
-var interval =setInterval(prikazi,1000);
+var interval =setInterval(prikazi,0);
 
 var rezultat = 0;
 
@@ -79,6 +79,7 @@ var tacanOdgvor;
 
 
     odgovor1.onclick= () => {
+        setTimeout(prikazi,1000);
         tacanOdgvor = nizPitanja[brojPitanja-1].tacno;
 
         if(odgovor1.innerHTML == tacanOdgvor){
@@ -102,10 +103,11 @@ var tacanOdgvor;
 
             
         }
-        prikazi();
+        
     }
 
     odgovor2.onclick= () => {
+        setTimeout(prikazi,1000);
          tacanOdgvor = nizPitanja[brojPitanja-1].tacno;
 
         if(odgovor2.innerHTML == tacanOdgvor){
@@ -128,10 +130,11 @@ var tacanOdgvor;
             odgovor3.style.pointerEvents = "none";
             odgovor4.style.pointerEvents = "none";
         }
-        prikazi();
+        
     }
 
     odgovor3.onclick= () => {
+        setTimeout(prikazi,1000);
         tacanOdgvor = nizPitanja[brojPitanja-1].tacno;
 
         if(odgovor3.innerHTML == tacanOdgvor){
@@ -154,10 +157,11 @@ var tacanOdgvor;
             odgovor3.style.pointerEvents = "none";
             odgovor4.style.pointerEvents = "none";
         }
-        prikazi();
+        
     }
 
     odgovor4.onclick= () => {
+        setTimeout(prikazi,1000);
          tacanOdgvor = nizPitanja[brojPitanja-1].tacno;
 
         if(odgovor4.innerHTML == tacanOdgvor){
@@ -180,7 +184,7 @@ var tacanOdgvor;
             odgovor3.style.pointerEvents = "none";
             odgovor4.style.pointerEvents = "none";
         }
-        prikazi();
+        
     }
 
 

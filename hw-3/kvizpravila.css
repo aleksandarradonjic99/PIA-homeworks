@@ -5,7 +5,7 @@ body{
 }
 .kvizpravila{
     width: 600px;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 100px;
     text-align: center;
     padding: 10px;
@@ -14,14 +14,19 @@ body{
     
 }
 p{
-    font-size: 12pt;
-    color: crimson;
+    font-size: 14pt;
+    color: black;
+    font-family:monospace;
+    font-style: bold;
+    
 
 }
 #start{
-    margin-top: 20px;
-    background-color: darkblue;
-    color: darkgray;
-    font-size: 14pt;
+    background-color:whitesmoke;
+    color:darkcyan;
+    font-size: 18pt;
+    font-family:monospace;
+    margin: 20px 100px;
+    width: 150px;
 
 }

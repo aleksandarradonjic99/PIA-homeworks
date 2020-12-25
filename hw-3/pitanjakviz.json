@@ -1,92 +1,92 @@
 [
     {
-        "Pitanje":"Ko je najbolji u fantsiju?",
-        "A": "Radonja",
-        "B": "Mora da je Radonja",
-        "C": "Sigurno je Radonja",
-        "D": "Radonja Bog",
-        "tacno": "Radonja Bog"
+        "Pitanje":"Koliko trenutno Premijer Liga broji klubova?",
+        "A": "16",
+        "B": "18",
+        "C": "19",
+        "D": "20",
+        "tacno": "20"
     },
 
     {
-        "Pitanje":"Ko je najbolji u fantsiju?",
-        "A": "Milutin",
-        "B": "Mora da je Milutin",
-        "C": "Sigurno je Milutin",
-        "D": "Milutin Bog",
-        "tacno": "Milutin Bog"
+        "Pitanje":"Ko se nalazi na vrhu tabele posle 14 odigranih kola?",
+        "A": "Chelsea",
+        "B": "Aston Villa",
+        "C": "Liverpool",
+        "D": "Tottenham",
+        "tacno": "Liverpool"
     },
 
     {
-        "Pitanje":"Ko je najbolji u fantsiju?",
-        "A": "Radonja",
-        "B": "Mora da je Radonja",
-        "C": "Sigurno je Radonja",
-        "D": "Radonja Bog",
-        "tacno": "Radonja Bog"
+        "Pitanje":"Koji igrač ima najviše postignutih pogodaka do sada?",
+        "A": "Bamford P.",
+        "B": "Son Heung-Min",
+        "C": "Salah M.",
+        "D": "Grealish J.",
+        "tacno": "Salah M."
     },
 
     {
-        "Pitanje":"Ko je najbolji u fantsiju?",
-        "A": "Radonja",
-        "B": "Mora da je Radonja",
-        "C": "Sigurno je Radonja",
-        "D": "Radonja Bog",
-        "tacno": "Radonja Bog"
+        "Pitanje":"Koji klub je postigao najviše golova do sada?",
+        "A": "Liverpool",
+        "B": "Manchester City",
+        "C": "West Ham",
+        "D": "Leeds",
+        "tacno": "Liverpool"
     },
 
     {
-        "Pitanje":"Ko je najbolji u fantsiju?",
-        "A": "Radonja",
-        "B": "Mora da je Radonja",
-        "C": "Sigurno je Radonja",
-        "D": "Radonja Bog",
-        "tacno": "Radonja Bog"
+        "Pitanje":"Koji klub je primio najviše golova do sada?",
+        "A": "Arsenal",
+        "B": "West Brom",
+        "C": "Leeds",
+        "D": "Fulham",
+        "tacno": "Leeds"
     },
 
     {
-        "Pitanje":"Ko je najbolji u fantsiju?",
-        "A": "Radonja",
-        "B": "Mora da je Radonja",
-        "C": "Sigurno je Radonja",
-        "D": "Radonja Bog",
-        "tacno": "Radonja Bog"
+        "Pitanje":"Koji igrač je do sada upisao najviše asistencija?",
+        "A": "Kane H.",
+        "B": "Grealish J.",
+        "C": "Robertson A.",
+        "D": "Fernandes B.",
+        "tacno": "Kane H."
     },
 
     {
-        "Pitanje":"Ko je najbolji u fantsiju?",
-        "A": "Radonja",
-        "B": "Mora da je Radonja",
-        "C": "Sigurno je Radonja",
-        "D": "Radonja Bog",
-        "tacno": "Radonja Bog"
+        "Pitanje":"Koji klub je osvojio najviše bodova na svom terenu?",
+        "A": "Chelsea",
+        "B": "Liverpool",
+        "C": "Southampton",
+        "D": "Everton",
+        "tacno": "Liverpool"
     },
 
     {
-        "Pitanje":"Ko je najbolji u fantsiju?",
-        "A": "Radonja",
-        "B": "Mora da je Radonja",
-        "C": "Sigurno je Radonja",
-        "D": "Radonja Bog",
-        "tacno": "Radonja Bog"
+        "Pitanje":"Koji klub je osvojio najmanje bodova na svom terenu?",
+        "A": "West Brom",
+        "B": "Fulham",
+        "C": "Burley",
+        "D": "Sheffield Utd",
+        "tacno": "Sheffield Utd"
     },
 
     {
-        "Pitanje":"Ko je najbolji u fantsiju?",
-        "A": "Radonja",
-        "B": "Mora da je Radonja",
-        "C": "Sigurno je Radonja",
-        "D": "Radonja Bog",
-        "tacno": "Radonja Bog"
+        "Pitanje":"Koji igrač je doneo najviše Fantasy poena do sada?",
+        "A": "Salah M.",
+        "B": "Kane H.",
+        "C": "Vardy J.",
+        "D": "Ings D.",
+        "tacno": "Salah M."
     },
 
     {
-        "Pitanje":"Ko je najbolji u fantsiju?",
-        "A": "Radonja",
-        "B": "Mora da je Radonja",
-        "C": "Sigurno je Radonja",
-        "D": "Radonja Bog",
-        "tacno": "Radonja Bog"
+        "Pitanje":"Koji golman je doneo najviše poena do sada?",
+        "A": "de Gea",
+        "B": "Martinez E.",
+        "C": "Alisson",
+        "D": "Mendy",
+        "tacno": "Martinez E."
     }
 
 
