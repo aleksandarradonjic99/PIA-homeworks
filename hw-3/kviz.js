@@ -14,7 +14,7 @@ var brojPitanja = 0;
 
 var brojac=0;
 
-var interval =setInterval(prikazi,0);
+setTimeout (prikazi,500);
 
 var rezultat = 0;
 
@@ -28,6 +28,8 @@ function prikazi(){
 
     if(brojPitanja < 10){
 
+        prikaziTajmer();
+
         pitanje.innerHTML = nizPitanja [brojPitanja].Pitanje;
         odgovor1.innerHTML = nizPitanja [brojPitanja].A;
         odgovor2.innerHTML = nizPitanja [brojPitanja].B;
@@ -36,10 +38,7 @@ function prikazi(){
 
         brojPitanja++;
         brojac++;
-        if(brojac==1){
-            clearInterval(interval);
-            
-        }
+       
 
 
         odgovor1.style.backgroundColor = "cornflowerblue";
@@ -65,20 +64,24 @@ function prikazi(){
 
 var preskociDugme = document.getElementById("preskoci");
 preskociDugme.onclick=()=> {
+    flag = true;
     prikazi();
 }
 
 var odustaniDugme = document.getElementById("odustani");
 odustaniDugme.onclick = () => {
+    flag = true;
     window.location.href = "konacno.html";
 }
 
 
 
 var tacanOdgvor;
+var flag = false;
 
 
     odgovor1.onclick= () => {
+        flag = true;
         setTimeout(prikazi,1000);
         tacanOdgvor = nizPitanja[brojPitanja-1].tacno;
 
@@ -107,6 +110,7 @@ var tacanOdgvor;
     }
 
     odgovor2.onclick= () => {
+        flag = true;
         setTimeout(prikazi,1000);
          tacanOdgvor = nizPitanja[brojPitanja-1].tacno;
 
@@ -134,6 +138,7 @@ var tacanOdgvor;
     }
 
     odgovor3.onclick= () => {
+        flag = true;
         setTimeout(prikazi,1000);
         tacanOdgvor = nizPitanja[brojPitanja-1].tacno;
 
@@ -161,6 +166,7 @@ var tacanOdgvor;
     }
 
     odgovor4.onclick= () => {
+        flag = true;
         setTimeout(prikazi,1000);
          tacanOdgvor = nizPitanja[brojPitanja-1].tacno;
 
@@ -185,6 +191,27 @@ var tacanOdgvor;
             odgovor4.style.pointerEvents = "none";
         }
         
+    }
+
+    var tajmer = 20;
+
+    function prikaziTajmer(){
+
+        tajmer = 20;
+
+        var int = setInterval(function(){
+            if (flag){
+                clearInterval(int);
+                flag = false;
+            }
+            if(tajmer <= 0){
+                clearInterval(int);
+            }
+            document.getElementById ("vreme").innerHTML = "Tajmer: "+ tajmer;
+            tajmer--;
+
+        },1000);
+
     }
 
 
