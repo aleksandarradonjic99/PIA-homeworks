@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.prijava{
+    margin-top: 200px;
+    width: 500px;
+    padding: 20px;
+    border: 3px solid blue;
+}
+.prijava h2{
+
+    margin-bottom: 40px;
+    font-family:monospace;
+    text-align: center;
+}
+
+
+
+
+.prijava #username, .prijava #password{
+    width: 250px;
+    margin-left: 105px;
+    margin-bottom: 20px;
+
+    
+}
+.prijava #login{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border: 3px solid blue;
+    color: black;
+    padding: 5px;
+    width: 250px;
+    margin-left: 105px;
+    margin-bottom: 20px;
+    
+
+}
+
+.registrovanje{
+    margin-top: 200px;
+    width: 500px;
+    padding: 20px;
+    border: 3px solid blue;
+
+}
+.registrovanje h2{
+
+    margin-bottom: 40px;
+    font-family:monospace;
+    text-align: center;
+}
+
+.registrovanje #name, .registrovanje #surname, .registrovanje #mail, .registrovanje #fullname, .registrovanje #password1{
+    width: 250px;
+    margin-left: 105px;
+    margin-bottom: 20px;
+}
+
+.registrovanje #singup{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border: 3px solid blue;
+    color: black;
+    padding: 5px;
+    width: 250px;
+    margin-left: 105px;
+    margin-bottom: 20px;
+}
