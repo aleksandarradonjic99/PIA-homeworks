@@ -19,20 +19,7 @@
             <a id="login" href="a"> Prijavite se </a>
         </div>
 
-        <div class="container registrovanje">
 
-            <h2>Registrujte se</h2>
-
-
-            <input id="name" class="form-control" type="text" autocomplete="off" placeholder="Ime">
-            <input id="surname" class="form-control" type="text" autocomplete="off" placeholder="Prezime">
-            <input id="mail" class="form-control" type="text" autocomplete="off" placeholder="Email">
-            <input id="fullname" class="form-control" type="text" autocomplete="off" placeholder="Korisnicko ime">
-            <input id="password1" class="form-control" type="text" autocomplete="off" placeholder="Lozinka">
-
-            <a id="singup" href="a"> Registrujte se </a>
-
-        </div>
         
     </body>
 
