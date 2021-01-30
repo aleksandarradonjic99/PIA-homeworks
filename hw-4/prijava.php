@@ -13,11 +13,15 @@
         <div class="container prijava">
             <h2>Ulogujte se</h2>
         
-
-            <input id="username" class="form-control" type="text" autocomplete="off" placeholder="Ime">
-            <input id="password" class="form-control" type="text" autocomplete="off" placeholder="Sifra">
-            <a id="login" href="a"> Prijavite se </a>
-        </div>
+        <form action = "prijava_1.php" method = "post">
+            <input name="userName" id="username" class="form-control" type="text" autocomplete="off" placeholder="Ime">
+            <input name="passWord" id="password" class="form-control" type="text" autocomplete="off" placeholder="Sifra">
+            
+            <button type="submit" name="submit"> Prijavite se </button>
+        
+        </form> 
+        
+    </div>
 
 
         
